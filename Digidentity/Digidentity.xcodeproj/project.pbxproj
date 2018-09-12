@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6965188A3A63FC99CF9ECDDA /* Pods_Digidentity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558DF763D2C45C147D1A7DE9 /* Pods_Digidentity.framework */; };
 		722E8A082148275C0067482E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E8A072148275C0067482E /* AppDelegate.swift */; };
 		722E8A0A2148275C0067482E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E8A092148275C0067482E /* ViewController.swift */; };
 		722E8A0D2148275C0067482E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722E8A0B2148275C0067482E /* Main.storyboard */; };
 		722E8A0F2148275D0067482E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722E8A0E2148275D0067482E /* Assets.xcassets */; };
 		722E8A122148275D0067482E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722E8A102148275D0067482E /* LaunchScreen.storyboard */; };
+		722E8A1B214829180067482E /* NewServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E8A1A214829180067482E /* NewServiceViewController.swift */; };
+		722EA3502148309C00F0CDCF /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 722EA34F2148309C00F0CDCF /* tessdata */; };
+		722EA352214830D200F0CDCF /* certificate.crt in Resources */ = {isa = PBXBuildFile; fileRef = 722EA351214830D200F0CDCF /* certificate.crt */; };
+		726351842148318300579EEF /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726351832148318300579EEF /* UIImage.swift */; };
+		72635188214831CF00579EEF /* CatalogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72635186214831CF00579EEF /* CatalogTableViewCell.swift */; };
+		72635189214831CF00579EEF /* CatalogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72635187214831CF00579EEF /* CatalogTableViewCell.xib */; };
+		7263518C2148349B00579EEF /* GlobalValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7263518B2148349B00579EEF /* GlobalValues.swift */; };
+		7263518E214834F900579EEF /* GlobalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7263518D214834F900579EEF /* GlobalColors.swift */; };
+		726351912148354500579EEF /* ApiRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726351902148354500579EEF /* ApiRequests.swift */; };
+		72635193214835CD00579EEF /* CatalogServiceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72635192214835CD00579EEF /* CatalogServiceEntity.swift */; };
+		726351952148362A00579EEF /* CustomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726351942148362A00579EEF /* CustomService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19A8A51E4CD30DCD1E3EEDA7 /* Pods-Digidentity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digidentity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Digidentity/Pods-Digidentity.release.xcconfig"; sourceTree = "<group>"; };
+		558DF763D2C45C147D1A7DE9 /* Pods_Digidentity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Digidentity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		722E8A042148275C0067482E /* Digidentity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Digidentity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		722E8A072148275C0067482E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		722E8A092148275C0067482E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,18 @@
 		722E8A0E2148275D0067482E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		722E8A112148275D0067482E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		722E8A132148275D0067482E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722E8A1A214829180067482E /* NewServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewServiceViewController.swift; sourceTree = "<group>"; };
+		722EA34F2148309C00F0CDCF /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		722EA351214830D200F0CDCF /* certificate.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = certificate.crt; sourceTree = "<group>"; };
+		726351832148318300579EEF /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		72635186214831CF00579EEF /* CatalogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCell.swift; sourceTree = "<group>"; };
+		72635187214831CF00579EEF /* CatalogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatalogTableViewCell.xib; sourceTree = "<group>"; };
+		7263518B2148349B00579EEF /* GlobalValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalValues.swift; sourceTree = "<group>"; };
+		7263518D214834F900579EEF /* GlobalColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalColors.swift; sourceTree = "<group>"; };
+		726351902148354500579EEF /* ApiRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequests.swift; sourceTree = "<group>"; };
+		72635192214835CD00579EEF /* CatalogServiceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogServiceEntity.swift; sourceTree = "<group>"; };
+		726351942148362A00579EEF /* CustomService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomService.swift; sourceTree = "<group>"; };
+		790FEEA40AAC6907BA1E7A3B /* Pods-Digidentity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digidentity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Digidentity/Pods-Digidentity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6965188A3A63FC99CF9ECDDA /* Pods_Digidentity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +67,9 @@
 			children = (
 				722E8A062148275C0067482E /* Digidentity */,
 				722E8A052148275C0067482E /* Products */,
+				B12B7E614D87E9C19EDA4E86 /* Pods */,
+				722E8A1D21482FE30067482E /* Supporting Files */,
+				7C41D0D49D93C75BF5CFCBA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +85,105 @@
 			isa = PBXGroup;
 			children = (
 				722E8A072148275C0067482E /* AppDelegate.swift */,
-				722E8A092148275C0067482E /* ViewController.swift */,
+				72EF9A702148313A00F2BDC6 /* DataManager */,
+				722EA353214830FF00F0CDCF /* UIObjects */,
+				722E8A19214829010067482E /* AppFlow */,
 				722E8A0B2148275C0067482E /* Main.storyboard */,
 				722E8A0E2148275D0067482E /* Assets.xcassets */,
 				722E8A102148275D0067482E /* LaunchScreen.storyboard */,
 				722E8A132148275D0067482E /* Info.plist */,
+				722EA351214830D200F0CDCF /* certificate.crt */,
 			);
 			path = Digidentity;
+			sourceTree = "<group>";
+		};
+		722E8A19214829010067482E /* AppFlow */ = {
+			isa = PBXGroup;
+			children = (
+				722E8A092148275C0067482E /* ViewController.swift */,
+				722E8A1A214829180067482E /* NewServiceViewController.swift */,
+			);
+			path = AppFlow;
+			sourceTree = "<group>";
+		};
+		722E8A1D21482FE30067482E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				722EA34F2148309C00F0CDCF /* tessdata */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		722EA353214830FF00F0CDCF /* UIObjects */ = {
+			isa = PBXGroup;
+			children = (
+				72635185214831B600579EEF /* CustomCell */,
+				726351822148316E00579EEF /* Extensions */,
+			);
+			name = UIObjects;
+			sourceTree = "<group>";
+		};
+		726351822148316E00579EEF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				726351832148318300579EEF /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72635185214831B600579EEF /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				72635186214831CF00579EEF /* CatalogTableViewCell.swift */,
+				72635187214831CF00579EEF /* CatalogTableViewCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		7263518A2148348600579EEF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7263518B2148349B00579EEF /* GlobalValues.swift */,
+				7263518D214834F900579EEF /* GlobalColors.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		7263518F2148353900579EEF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				726351902148354500579EEF /* ApiRequests.swift */,
+				72635192214835CD00579EEF /* CatalogServiceEntity.swift */,
+				726351942148362A00579EEF /* CustomService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		72EF9A702148313A00F2BDC6 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				7263518F2148353900579EEF /* Network */,
+				7263518A2148348600579EEF /* Constants */,
+			);
+			name = DataManager;
+			path = AppFlow;
+			sourceTree = "<group>";
+		};
+		7C41D0D49D93C75BF5CFCBA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				558DF763D2C45C147D1A7DE9 /* Pods_Digidentity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B12B7E614D87E9C19EDA4E86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				790FEEA40AAC6907BA1E7A3B /* Pods-Digidentity.debug.xcconfig */,
+				19A8A51E4CD30DCD1E3EEDA7 /* Pods-Digidentity.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 722E8A162148275D0067482E /* Build configuration list for PBXNativeTarget "Digidentity" */;
 			buildPhases = (
+				4783167A4D547F9BD09A981C /* [CP] Check Pods Manifest.lock */,
 				722E8A002148275C0067482E /* Sources */,
 				722E8A012148275C0067482E /* Frameworks */,
 				722E8A022148275C0067482E /* Resources */,
+				A5C30A5FCBE2CA4456400251 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +247,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				722E8A122148275D0067482E /* LaunchScreen.storyboard in Resources */,
+				722EA3502148309C00F0CDCF /* tessdata in Resources */,
 				722E8A0F2148275D0067482E /* Assets.xcassets in Resources */,
+				722EA352214830D200F0CDCF /* certificate.crt in Resources */,
 				722E8A0D2148275C0067482E /* Main.storyboard in Resources */,
+				72635189214831CF00579EEF /* CatalogTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4783167A4D547F9BD09A981C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Digidentity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5C30A5FCBE2CA4456400251 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Digidentity/Pods-Digidentity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APESuperHUD/APESuperHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/DataCache/DataCache.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleImageViewer/SimpleImageViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APESuperHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DataCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleImageViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Digidentity/Pods-Digidentity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		722E8A002148275C0067482E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722E8A1B214829180067482E /* NewServiceViewController.swift in Sources */,
+				726351842148318300579EEF /* UIImage.swift in Sources */,
+				726351912148354500579EEF /* ApiRequests.swift in Sources */,
+				7263518C2148349B00579EEF /* GlobalValues.swift in Sources */,
+				726351952148362A00579EEF /* CustomService.swift in Sources */,
 				722E8A0A2148275C0067482E /* ViewController.swift in Sources */,
 				722E8A082148275C0067482E /* AppDelegate.swift in Sources */,
+				72635193214835CD00579EEF /* CatalogServiceEntity.swift in Sources */,
+				7263518E214834F900579EEF /* GlobalColors.swift in Sources */,
+				72635188214831CF00579EEF /* CatalogTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +466,12 @@
 		};
 		722E8A172148275D0067482E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790FEEA40AAC6907BA1E7A3B /* Pods-Digidentity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SXFJ5K42NW;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Digidentity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -291,16 +481,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tamas.Digidentity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		722E8A182148275D0067482E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A8A51E4CD30DCD1E3EEDA7 /* Pods-Digidentity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SXFJ5K42NW;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Digidentity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tamas.Digidentity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
