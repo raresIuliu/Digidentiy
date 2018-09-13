@@ -25,6 +25,7 @@ class NewServiceViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var photoBtn: UIButton!
     @IBOutlet weak var ocrBtn: UIButton!
     @IBOutlet weak var addBtn: UIButton!
+    @IBOutlet weak var backView: UIView!
     
     var delegate: NewServiceDelegate?
     var imageInBase64: String = ""
@@ -34,6 +35,10 @@ class NewServiceViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.interactivePopGestureRecognizer?.delegate = nil
+        
+        self.backView.layer.cornerRadius = 2.0
+        self.backView.layer.borderColor = UIColor.white.cgColor
+        self.backView.layer.borderWidth = 1.0
     }
     
     @IBAction func backBtnTapped(_ sender: Any) {
@@ -51,12 +56,18 @@ class NewServiceViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func addBtnTapped(_ sender: Any) {
+        
+        if takenImageView.image == nil {
+            self.showAlert(title: GlobalValues.incompleteData, message: GlobalValues.imageError)
+            return
+        }
+        
         if descriptionTextField.text == "" {
-            self.showAlert(title: "Incomplete data", message: "Please add a description.")
+            self.showAlert(title: GlobalValues.incompleteData, message: GlobalValues.descriptionError)
             return
         }
         if confidenceTextField.text == "" {
-            self.showAlert(title: "Incomplete data", message: "Please add confidence value.")
+            self.showAlert(title: GlobalValues.incompleteData, message: GlobalValues.confidenceError)
             return
         }
         
@@ -65,7 +76,7 @@ class NewServiceViewController: UIViewController, UITextFieldDelegate {
             if let confidenceAsDouble = Double(confidenceReplaced) {
                 ApiRequests.addNewService(imageInBase64: self.imageInBase64, text: description, confidence: confidenceAsDouble) { (statusCode) in
                     if statusCode != 200 {
-                        self.showAlert(title: "Error", message: "Something went wrong. Please try again.")
+                        self.showAlert(title: GlobalValues.error, message: GlobalValues.errorMessage)
                         return
                     }
                                         

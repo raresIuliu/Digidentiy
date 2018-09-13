@@ -20,7 +20,6 @@
 		72635188214831CF00579EEF /* CatalogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72635186214831CF00579EEF /* CatalogTableViewCell.swift */; };
 		72635189214831CF00579EEF /* CatalogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72635187214831CF00579EEF /* CatalogTableViewCell.xib */; };
 		7263518C2148349B00579EEF /* GlobalValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7263518B2148349B00579EEF /* GlobalValues.swift */; };
-		7263518E214834F900579EEF /* GlobalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7263518D214834F900579EEF /* GlobalColors.swift */; };
 		726351912148354500579EEF /* ApiRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726351902148354500579EEF /* ApiRequests.swift */; };
 		72635193214835CD00579EEF /* CatalogServiceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72635192214835CD00579EEF /* CatalogServiceEntity.swift */; };
 		726351952148362A00579EEF /* CustomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726351942148362A00579EEF /* CustomService.swift */; };
@@ -43,7 +42,6 @@
 		72635186214831CF00579EEF /* CatalogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCell.swift; sourceTree = "<group>"; };
 		72635187214831CF00579EEF /* CatalogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatalogTableViewCell.xib; sourceTree = "<group>"; };
 		7263518B2148349B00579EEF /* GlobalValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalValues.swift; sourceTree = "<group>"; };
-		7263518D214834F900579EEF /* GlobalColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalColors.swift; sourceTree = "<group>"; };
 		726351902148354500579EEF /* ApiRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequests.swift; sourceTree = "<group>"; };
 		72635192214835CD00579EEF /* CatalogServiceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogServiceEntity.swift; sourceTree = "<group>"; };
 		726351942148362A00579EEF /* CustomService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomService.swift; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				7263518B2148349B00579EEF /* GlobalValues.swift */,
-				7263518D214834F900579EEF /* GlobalColors.swift */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -323,7 +320,6 @@
 				722E8A0A2148275C0067482E /* ViewController.swift in Sources */,
 				722E8A082148275C0067482E /* AppDelegate.swift in Sources */,
 				72635193214835CD00579EEF /* CatalogServiceEntity.swift in Sources */,
-				7263518E214834F900579EEF /* GlobalColors.swift in Sources */,
 				72635188214831CF00579EEF /* CatalogTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,12 +18,12 @@ class ViewController: UIViewController, NewServiceDelegate {
     @IBOutlet weak var removeAllBtn: UIButton!
     
     var catalogServicesArray = [CatalogServiceEntity]()
-    let cache = DataCache(name: "MyCustomCache")
+    let cache = DataCache(name: GlobalValues.cacheKey)
     var firstLoad: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+                
         self.registerTableViewCell()
         self.addPullToRefresh()
         self.loadData()
@@ -32,7 +32,7 @@ class ViewController: UIViewController, NewServiceDelegate {
     func registerTableViewCell() {
         let newsNib = UINib.init(nibName: "CatalogTableViewCell", bundle: nil)
         catalogTableView.register(newsNib, forCellReuseIdentifier: GlobalValues.catalogCellIdentifier)
-        self.catalogTableView.separatorColor = GlobalColors.blueIceColor
+        self.catalogTableView.separatorColor = UIColor(red: 132.0/255.0, green: 157.0/255.0, blue: 169.0/255.0, alpha: 1.0)
     }
     
     func addPullToRefresh() {
@@ -90,7 +90,6 @@ class ViewController: UIViewController, NewServiceDelegate {
         }
         
         if data.serviceArray.count > 0 {
-            //Afisare elemente din service array
             self.catalogServicesArray = data.serviceArray
             DispatchQueue.main.async {
                 self.catalogTableView.reloadData()

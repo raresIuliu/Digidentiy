@@ -17,4 +17,11 @@ class GlobalValues: NSObject {
     static let catalogCellIdentifier: String = "catalogCell"
     static let newServiceViewController: String = "NewServiceViewController"
     static let cacheKey: String = "cachedServiceKey"
+    // Error mesages
+    static let incompleteData = "Incomplete data"
+    static let descriptionError = "Please add a description."
+    static let confidenceError = "Please add confidence value."
+    static let imageError = "Please add image."
+    static let error = "Error"
+    static let errorMessage = "Something went wrong. Please try again."
 }

@@ -22,7 +22,10 @@
                                 <rect key="frame" x="0.0" y="607" width="375" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ylm-0W-jsb">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="60"/>
+                                        <rect key="frame" x="20" y="0.0" width="90" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="0bp-7S-PRt"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Add new">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -32,9 +35,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSk-yp-5QO">
-                                        <rect key="frame" x="270" y="15" width="85" height="30"/>
+                                        <rect key="frame" x="265" y="0.0" width="90" height="60"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="6dB-nu-N5O"/>
+                                            <constraint firstAttribute="width" constant="90" id="LIB-OR-yyr"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Remove all">
@@ -49,12 +52,11 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="0XG-Oh-jny"/>
                                     <constraint firstItem="Ylm-0W-jsb" firstAttribute="centerY" secondItem="Tge-m6-Exp" secondAttribute="centerY" id="J8r-58-MBi"/>
+                                    <constraint firstAttribute="bottom" secondItem="cSk-yp-5QO" secondAttribute="bottom" id="Jbx-ll-pQD"/>
                                     <constraint firstAttribute="bottom" secondItem="Ylm-0W-jsb" secondAttribute="bottom" id="W7T-pC-KIy"/>
                                     <constraint firstAttribute="trailing" secondItem="cSk-yp-5QO" secondAttribute="trailing" constant="20" id="a24-kY-dG8"/>
-                                    <constraint firstItem="cSk-yp-5QO" firstAttribute="centerY" secondItem="Tge-m6-Exp" secondAttribute="centerY" id="aeK-S0-dpf"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ylm-0W-jsb" secondAttribute="trailing" constant="295" id="f9s-Rh-lQ3"/>
-                                    <constraint firstItem="Ylm-0W-jsb" firstAttribute="leading" secondItem="Tge-m6-Exp" secondAttribute="leading" id="kcH-V8-IxA"/>
-                                    <constraint firstItem="cSk-yp-5QO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Tge-m6-Exp" secondAttribute="leading" constant="20" symbolic="YES" id="kwR-pY-FlD"/>
+                                    <constraint firstItem="Ylm-0W-jsb" firstAttribute="leading" secondItem="Tge-m6-Exp" secondAttribute="leading" constant="20" id="kcH-V8-IxA"/>
+                                    <constraint firstItem="cSk-yp-5QO" firstAttribute="top" secondItem="Tge-m6-Exp" secondAttribute="top" id="mBV-CM-n77"/>
                                     <constraint firstItem="Ylm-0W-jsb" firstAttribute="top" secondItem="Tge-m6-Exp" secondAttribute="top" id="neZ-wA-72e"/>
                                 </constraints>
                             </view>
@@ -114,9 +116,9 @@
                                 <rect key="frame" x="0.0" y="607" width="375" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ud-jJ-Rph">
-                                        <rect key="frame" x="15" y="15" width="46" height="30"/>
+                                        <rect key="frame" x="20" y="0.0" width="90" height="60"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="qcu-EQ-b9c"/>
+                                            <constraint firstAttribute="width" constant="90" id="keq-Hl-eZf"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="Photo">
@@ -127,9 +129,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFr-7k-Ggq">
-                                        <rect key="frame" x="318" y="15" width="37" height="30"/>
+                                        <rect key="frame" x="265" y="0.0" width="90" height="60"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="9QF-ma-HEl"/>
+                                            <constraint firstAttribute="width" constant="90" id="6X1-QJ-4Aj"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="OCR">
@@ -142,12 +144,14 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="5Ud-jJ-Rph" firstAttribute="top" secondItem="bEO-ju-nDT" secondAttribute="top" id="8S8-K2-UIB"/>
                                     <constraint firstAttribute="height" constant="60" id="AdA-gr-keT"/>
                                     <constraint firstItem="iFr-7k-Ggq" firstAttribute="centerY" secondItem="bEO-ju-nDT" secondAttribute="centerY" id="GEM-We-M84"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Ud-jJ-Rph" secondAttribute="bottom" id="O43-zw-Boh"/>
                                     <constraint firstAttribute="trailing" secondItem="iFr-7k-Ggq" secondAttribute="trailing" constant="20" id="XrM-Yc-VRA"/>
-                                    <constraint firstAttribute="trailing" secondItem="5Ud-jJ-Rph" secondAttribute="trailing" constant="314" id="aJM-EO-Cbs"/>
-                                    <constraint firstItem="5Ud-jJ-Rph" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="bEO-ju-nDT" secondAttribute="leading" id="dTL-LE-EdE"/>
-                                    <constraint firstItem="iFr-7k-Ggq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="bEO-ju-nDT" secondAttribute="leading" constant="20" symbolic="YES" id="pme-k4-AdN"/>
+                                    <constraint firstAttribute="bottom" secondItem="iFr-7k-Ggq" secondAttribute="bottom" id="c4N-Yh-ALb"/>
+                                    <constraint firstItem="iFr-7k-Ggq" firstAttribute="top" secondItem="bEO-ju-nDT" secondAttribute="top" id="dCF-9V-a0P"/>
+                                    <constraint firstItem="5Ud-jJ-Rph" firstAttribute="leading" secondItem="bEO-ju-nDT" secondAttribute="leading" constant="20" id="dTL-LE-EdE"/>
                                     <constraint firstItem="5Ud-jJ-Rph" firstAttribute="centerY" secondItem="bEO-ju-nDT" secondAttribute="centerY" id="vOe-x9-naJ"/>
                                 </constraints>
                             </view>
@@ -203,7 +207,15 @@
                                     <action selector="addBtnTapped:" destination="9cE-j5-iyq" eventType="touchUpInside" id="whc-01-pqa"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagePlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-Sa-AxM">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aba-aD-2zC">
+                                <rect key="frame" x="51" y="88" width="272" height="187"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="272" id="KsM-JY-ZgJ"/>
+                                    <constraint firstAttribute="height" constant="187" id="xba-h1-m6P"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-Sa-AxM">
                                 <rect key="frame" x="53.5" y="90" width="268" height="183"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="183" id="2HA-E8-JtM"/>
@@ -216,6 +228,7 @@
                             <constraint firstItem="bEO-ju-nDT" firstAttribute="leading" secondItem="Eqp-nb-cHS" secondAttribute="leading" id="4aH-jX-Kiz"/>
                             <constraint firstItem="Or7-pp-LDJ" firstAttribute="leading" secondItem="Eqp-nb-cHS" secondAttribute="leading" constant="40" id="AGm-go-S00"/>
                             <constraint firstItem="2W6-Rf-jPu" firstAttribute="centerX" secondItem="1FO-2I-lCP" secondAttribute="centerX" id="Anm-Fu-2bZ"/>
+                            <constraint firstItem="aba-aD-2zC" firstAttribute="top" secondItem="nJn-j3-GaI" secondAttribute="bottom" constant="18" id="E87-BN-hcU"/>
                             <constraint firstItem="nWW-Sa-AxM" firstAttribute="centerX" secondItem="1FO-2I-lCP" secondAttribute="centerX" id="H8m-Y5-xJz"/>
                             <constraint firstItem="nJn-j3-GaI" firstAttribute="leading" secondItem="Eqp-nb-cHS" secondAttribute="leading" constant="15" id="Ife-nQ-sK2"/>
                             <constraint firstItem="nWW-Sa-AxM" firstAttribute="top" secondItem="nJn-j3-GaI" secondAttribute="bottom" constant="20" id="KKm-Hr-2e6"/>
@@ -225,9 +238,11 @@
                             <constraint firstItem="frY-Hb-MzV" firstAttribute="top" secondItem="nWW-Sa-AxM" secondAttribute="bottom" constant="60" id="TMj-Nd-UNI"/>
                             <constraint firstAttribute="bottom" secondItem="bEO-ju-nDT" secondAttribute="bottom" id="W9x-hL-FbA"/>
                             <constraint firstAttribute="trailing" secondItem="bEO-ju-nDT" secondAttribute="trailing" id="XkV-Wy-KQR"/>
+                            <constraint firstItem="aba-aD-2zC" firstAttribute="centerX" secondItem="1FO-2I-lCP" secondAttribute="centerX" id="Yr3-aU-Jgz"/>
                             <constraint firstItem="frY-Hb-MzV" firstAttribute="leading" secondItem="Eqp-nb-cHS" secondAttribute="leading" constant="40" id="aA3-Zz-EIJ"/>
                             <constraint firstItem="xqm-8W-gph" firstAttribute="top" secondItem="Or7-pp-LDJ" secondAttribute="bottom" constant="40" id="dK0-xv-seh"/>
                             <constraint firstItem="Eqp-nb-cHS" firstAttribute="trailing" secondItem="frY-Hb-MzV" secondAttribute="trailing" constant="40" id="ebf-FK-6xc"/>
+                            <constraint firstItem="frY-Hb-MzV" firstAttribute="top" secondItem="aba-aD-2zC" secondAttribute="bottom" constant="58" id="lMa-Oh-MVa"/>
                             <constraint firstItem="Or7-pp-LDJ" firstAttribute="top" secondItem="frY-Hb-MzV" secondAttribute="bottom" constant="40" id="omz-g2-R1a"/>
                             <constraint firstItem="2W6-Rf-jPu" firstAttribute="top" secondItem="Eqp-nb-cHS" secondAttribute="top" constant="15" id="p1E-3Z-dPd"/>
                         </constraints>
@@ -236,6 +251,7 @@
                     <connections>
                         <outlet property="addBtn" destination="xqm-8W-gph" id="xGG-ye-Q70"/>
                         <outlet property="backBtn" destination="nJn-j3-GaI" id="k4t-Wc-lyS"/>
+                        <outlet property="backView" destination="aba-aD-2zC" id="uEu-jA-6by"/>
                         <outlet property="confidenceTextField" destination="Or7-pp-LDJ" id="CcE-jG-TM7"/>
                         <outlet property="descriptionTextField" destination="frY-Hb-MzV" id="xJW-bR-nEB"/>
                         <outlet property="ocrBtn" destination="iFr-7k-Ggq" id="7Z2-OW-Kz5"/>
@@ -267,6 +283,5 @@
     </scenes>
     <resources>
         <image name="back" width="21" height="21"/>
-        <image name="imagePlaceholder" width="320" height="240"/>
     </resources>
 </document>
